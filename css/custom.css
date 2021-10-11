@@ -1,0 +1,85 @@
+.carousel-caption{
+    background-color: rgba(0,0,0,0.5);
+    width:100%;
+    left:0;
+    bottom:0;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.tem .col-lg-4{
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-divider{
+    margin:3rem;
+}
+
+.footer-section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+@media (min-width:1200px)
+{
+    .feature-heading{
+        margin-top: 10rem;
+    }
+}
+
+@media(max-width:540px)
+{
+    .carouselImg{
+        display: none;
+    }
+
+    .team{
+        margin-top: 2rem;
+    }
+}
+
+#info-box-full{
+      background-color : rgba(255, 255, 255, .8) ;
+      width   : 90%;
+      display : block;
+      margin  : auto;
+      margin-top : 12px;
+      padding    : 10px;
+}
+
+
+#info-box-full h3{
+      text-align : center;
+}
+
+/*===========FORM===========*/
+input{
+      width: 100%;
+      height: 25px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+textarea{
+      width: 100%;
+      height :65px;
+      margin : 12px 0;
+      border : 1px solid #929292;
+}
+
+.button{
+      display : block;
+	  width: 100%;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align  : center;
+      color       : white;
+      font-size   : 16px;
+      font-weight : 600;
+      margin 	  : 12px 0;
+      padding	  : 8px 0;
+}
+
